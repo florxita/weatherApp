@@ -1,0 +1,60 @@
+:root {
+  /*text*/
+
+  --bigger: 60px;
+  --big: 30px;
+  --medium: 25px;
+  --inter: 21px;
+  --normal: 18px;
+  --standar: 16px;
+  --small: 12px;
+  --tiny: 9px;
+
+  /*color*/
+
+  --bg-dark: rgb(35, 28, 43);
+  --bg-darkViolet: #2d2043da;
+  --bg-seaBlue: #2c5364d6;
+  --bg-clearViolet: rgba(153, 83, 222, 0.735);
+  --bg-semiViolet: rgba(104, 63, 144, 0.516);
+  --bg-pink: #f7797dd0;
+  --bg-cream: #fbd886ce;
+  --bg-aquamarine: #c6ffddc1;
+  --bg-waterGreenDark: #78a188c1;
+  --bg-pinkDark: #d35559d0;
+
+  --gray-deep: rgb(34, 34, 37);
+  --gray-dark: rgb(66, 66, 74);
+  --gray-medium: rgb(128, 128, 154);
+  --gray-light: rgb(186, 186, 205);
+
+  /* transparencias*/
+  --w-transparent: rgba(255, 255, 255, 0.39);
+  --d-transparent: rgba(152, 160, 168, 0.185);
+  --violet-transparent: rgba(104, 63, 144, 0.516);
+  --viole: rgba(104, 63, 144, 0.516);
+
+  --pink-transparent: rgba(169, 65, 98, 0.2);
+  --p-transparent: #3d296725;
+
+  /*gradient*/
+
+  --violet-gradient: to right, rgba(104, 63, 144, 0) 0%, #603b8553 40%,
+    #603b8553 70%, #683f9000 100%;
+
+  --pink-gradient: to right, #f7797d00 0%, #f7797da5 40%, #f7797da5 70%,
+    #f7797d00 100%;
+
+  /* shadows*/
+
+  --shadow: rgba(32, 17, 48, 0.333) 0px 4px 5px;
+  --shadow-icon: rgba(100, 107, 113, 0.095) 1px 2px 2px;
+
+  /*margin - padding*/
+  --m-1: 1rem;
+  --m-2: 2rem;
+
+  /*border*/
+
+  --b-r: 1rem;
+}

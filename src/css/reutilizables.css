@@ -1,0 +1,88 @@
+@import url(variables.css);
+
+.flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.width {
+  width: 100%;
+}
+
+/*size txt */
+
+.huge-text {
+  font-size: var(--bigger);
+  font-weight: 700;
+}
+
+.big-title {
+  font-size: var(--big);
+  font-weight: 700;
+}
+
+.title {
+  font-size: var(--standar);
+  font-weight: 700;
+}
+
+.sub-title {
+  font-size: var(--medium);
+  font-weight: 600;
+}
+
+.med-sub-title {
+  font-size: var(--normal);
+  font-weight: 700;
+}
+
+.small-sub-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.review-text {
+  font-size: var(--normal);
+  font-weight: 400;
+}
+.standar-text {
+  font-size: var(--standar);
+}
+
+.small-text {
+  font-size: var(--small);
+}
+.medium {
+  font-weight: 600;
+}
+
+/*color txt*/
+.color-txt {
+  color: var(--bg-darkViolet);
+}
+
+#dark .color-txt {
+  color: #fff;
+}
+
+.b-radius {
+  border-radius: var(--b-r);
+}
+
+.g-1 {
+  gap: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-05 {
+  margin-top: 0.5rem;
+}
