@@ -1,21 +1,15 @@
-import React, { useState, createContext, useReducer } from "react";
-// import DataReducer from "./DataReducer";
-// import { initialStyle } from "./DataReducer";
+import React, { useState, createContext } from "react";
 
 export const DataContext = createContext(false);
 
 const DataProvider = ({ children }) => {
-  // const [style, dispatch] = useReducer(DataReducer, initialStyle);
-
   const [data, setData] = useState({});
   const [error, setError] = useState(false);
   const [location, setLocation] = useState("");
   const [forecast, setForecast] = useState([]);
   const [tempmax, setTempmax] = useState([]);
-  // const [position, setPosition] = useState("center-position");
   const [theme, setTheme] = useState("light");
   const [styles, setStyles] = useState("normal");
-  // const [title, setTitle] = useState("");
 
   const searchLocation = async () => {
     const apiKey = "391a62551c59651d2d1a72a58879d3cd";
@@ -131,16 +125,10 @@ const DataProvider = ({ children }) => {
     createInfo,
     dateBuilder,
     tempmax,
-    // position,
-    // setPosition,
     theme,
     setTheme,
     error,
     setError,
-    // title,
-    // setTitle,
-    // style,
-    // dispatch,
     styles,
     setStyles,
   };

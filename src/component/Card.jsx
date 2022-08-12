@@ -28,7 +28,7 @@ const Card = () => {
           </div>
           <div className="center-info flex col">
             <figure className="icon-content">
-              <img src={`/src/img/icons/${icon}.svg`} />
+              <img src={`assets/icons/${icon}.svg`} />
             </figure>
             <span className="description review-text">{description}</span>
             <div className="temp-day flex">

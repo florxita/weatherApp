@@ -14,7 +14,6 @@ function App() {
     <div className="App " id={theme} style={{ theme }}>
       <div className="styles flex col" id={styles} style={{ styles }}>
         <Header />
-
         <Search />
         <Card />
         <ModeColor />

@@ -19,7 +19,7 @@ const DayCard = () => {
                   .slice(0, 2)
                   .join(" ")}
               </span>
-              <img src={`src/img/icons/${f.weather[0].icon}.svg`} alt="" />
+              <img src={`assets/icons/${f.weather[0].icon}.svg`} alt="" />
               <div className="min-max flex g-1">
                 <span className="temp-num">
                   <i className="fa-solid fa-arrow-down-long"></i>
